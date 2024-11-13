@@ -9,3 +9,9 @@
 8. Cài nốt 2 thư viện của typescript và cypress buitl trên typescript: **npm install @types/cypress --save-dev** và **npm install typescript --save-dev**
 9. Viết 1 test mẫu
 10. Chạy test bằng câu lệnh **npx cypress open**
+
+**Cách cài đặt xpath trong cypress, typescript**
+1. Gõ câu lệnh **npm install -D cypress-xpath**
+
+2. Vào **cypress/support/commands.ts** import thư viện **import 'cypress-xpath'**
+ vào , nhớ đổi file thành ts=))
