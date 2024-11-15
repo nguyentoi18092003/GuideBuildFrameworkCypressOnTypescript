@@ -15,3 +15,7 @@
 
 2. Vào **cypress/support/commands.ts** import thư viện **import 'cypress-xpath'**
  vào , nhớ đổi file thành ts=))
+
+**Sua file e2s.js thanh e2e.ts**
+1. Sửa file e2e.js-> e2e.ts
+2. Vào file **cypress.config.js ** thêm **supportFile: './cypress/support/e2e.ts'** để cho project hiểu support file bây giờ là e2e.ts chứ không phải e2e.js vì nếu mình không vào cấu hình vị trí cho supportFile thì nó mặc đinh là e2e.js, nên khi mk đổi thành ts thì mk phải vào cấu hình lại
